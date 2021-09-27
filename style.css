@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    padding: 30px;
+    min-height: 120vh;
+    width: 100%;
+    background-color:#EEEEEE;
+}
+
+#heading{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+h1{
+    font-family: ogg;
+}
+
+h2{
+    font-size: 40px;
+    margin-right: 10px;
+    font-family: shaloems;
+}
+
+#buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 28%;
+    top: 15%;   
+    left: 55%;
+    transform: translate(-50%, 0);
+    /* background-color: rgb(173, 28, 28); */
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#all{
+    position: absolute;
+    top: 15%;
+    left: 33.5%;
+    height: 50px;
+    /* padding: 5px; */
+    
+}
+
+button:hover{
+    background-color: brown;
+}
+
+#options{
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 30px;
+    position: absolute;
+    margin-top: 10px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    height: 90vh;
+    width: 90%;
+    /* background-color: brown; */
+}
+#box{
+    
+    margin: 10px;
+    height: 30vh;
+    width: 20%;
+    background-color: rgb(215, 219, 219);
+}
+#image{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+}
+
+#details{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+input{
+    height: 40px;
+    padding: 10px;
+    font-size: 30px;
+position: absolute;
+top: 25%;
+left: 40%;
+}
+
+#search{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    background-color: rgb(243, 132, 132);
+}
+#search:hover{
+    background-color: crimson;
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(243, 132, 132);
+    font-size: 20px;
+}
+
+#P{
+    display: flex;
+    height: 100%;
+    width: 45%;
+}
+
+#add{
+    margin-left: 10px;
+    padding: 8px;
+    height: 5px;
+    width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.button:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
